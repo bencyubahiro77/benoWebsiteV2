@@ -19,8 +19,8 @@ const about = () => {
                 <img src='https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt548d935410bb24b8/60dacd0996e07e0f6e50b0c3/e1bcc3a821bfff285d68586b8ae436ffc75b5f95.jpg?auto=webp&format=pjpg&width=3840&quality=60' alt='' className='rounded-full mt-8 flex h-72 w-72 object-cover' />
              </div>
 
-             <div className='md:flex pt-8 md:pr-24 md:pl-24 m-2'>
-                <div className='md:w-1/2'>
+             <div className='lg:flex pt-8 md:pr-24 md:pl-24 m-2'>
+                <div className='lg:w-1/2'>
                     <p
                      className='text-lg leading-6 pt-4 font-normal'
                     >
@@ -36,7 +36,7 @@ const about = () => {
                     </p>
                 </div>
 
-                <div className='md:w-1/2 pt-4 md:ml-12 grid grid-cols-4 gap-2'>
+                <div className='lg:w-1/2 pt-4 md:ml-12 grid grid-cols-4 gap-2'>
                     <div>
                        <FaCss3Alt className='h-16 w-16' style={{ color: '#2965F1' }}/>
                       

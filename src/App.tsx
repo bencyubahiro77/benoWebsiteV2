@@ -3,6 +3,8 @@ import "./App.css"
 import Navbar from './components/navbar';
 import Home from './pages/homeP';
 import About from './pages/about';
+import Contact from './pages/contact';
+import Projects from './pages/project';
 
 const App: React.FC = () => {
   return (
@@ -10,8 +12,8 @@ const App: React.FC = () => {
       <Navbar />
       <Home />
       <About />
-      {/* <Projects />
-      <Contact /> */}
+      <Projects />
+      <Contact />
     </div>
   );
 };
