@@ -15,25 +15,25 @@ const contact = () => {
                 </p>
                 <div>
                     <form className='flex justify-center item-center' >
-                        <div className='pt-8 cont lg:w-7/12 w-11/12'>
+                        <div className='pt-8 cont lg:w-7/12 w-11/12 mb-8'>
                             <div className='w-full'>
                                 <label className='block text-gray-700 text-sm font-bold m-2' htmlFor='name'>
                                     Name
                                 </label>
-                                <input className='shadow appearance-none bg-[#f0f0f0] border rounded w-full h-12 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' id='name' type='text' placeholder='Name' required />
+                                <input className='shadow appearance-none bg-[#f0f0f0] border rounded w-full h-16 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' id='name' type='text' placeholder='Name' required />
                             </div>
                             <div className='w-full'>
                                 <label className='block text-gray-700 text-sm font-bold m-2' htmlFor='email'>
                                     Email
                                 </label>
-                                <input className='shadow appearance-none bg-[#f0f0f0] h-12 border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' id='email' type='email' placeholder='Email' required />
+                                <input className='shadow appearance-none bg-[#f0f0f0] h-16 border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' id='email' type='email' placeholder='Email' required />
                             </div>
                             <div className='w-full'>
                                 <label className='block text-gray-700 text-sm font-bold  m-2' htmlFor='email'>
                                     Message
                                 </label> 
                             
-                                <textarea className='shadow appearance-none bg-[#f0f0f0] h-36 resize-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' id='message' placeholder='Message' required>
+                                <textarea className='shadow appearance-none bg-[#f0f0f0] h-44 resize-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' id='message' placeholder='Message' required>
 
                                 </textarea>
                             </div>
