@@ -9,7 +9,7 @@ const about = () => {
            <div className='w-full pt-16'>
              <h4 className='text-center font-bold text-4xl tracking-wider'>ABOUT ME</h4>
              <p 
-               className='text-center leading-6 md:text-xl w-full pt-8 md:pr-48 md:pl-48'
+               className='text-center leading-6 md:text-xl w-full pt-8 pl-4 pr-4 md:pr-48 md:pl-48'
              >
                 Here you will find more information about me, what I do, and my current skills
                 mostly in terms of programming and technology
@@ -19,7 +19,7 @@ const about = () => {
                 <img src='https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt548d935410bb24b8/60dacd0996e07e0f6e50b0c3/e1bcc3a821bfff285d68586b8ae436ffc75b5f95.jpg?auto=webp&format=pjpg&width=3840&quality=60' alt='' className='rounded-full mt-8 flex h-72 w-72 object-cover' />
              </div>
 
-             <div className='lg:flex pt-8 md:pr-24 md:pl-24 m-2'>
+             <div className='lg:flex pt-8 md:pr-24 md:pl-24 pr-4 pl-4 m-2'>
                 <div className='lg:w-1/2'>
                     <p
                      className='text-lg leading-6 pt-4 font-normal'
