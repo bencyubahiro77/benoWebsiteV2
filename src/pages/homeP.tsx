@@ -13,6 +13,10 @@ const home = () => {
                 Front-end Developer and Electronics Engineer</span>  building the Frontend of Websites and Web Applications
                 that leads to the success of the overall product 
               </p>
+              <div className='flex w-full justify-center items-center mt-32'>
+                 <div className="mouse"></div> 
+              </div>
+              
               </div>
           </div>
       </section>

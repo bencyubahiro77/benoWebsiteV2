@@ -38,3 +38,38 @@
     box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
     cursor: pointer;
 }
+.mouse {
+    width: 25px;
+    height: 40px;
+    border: 2px solid #333;
+    border-radius: 60px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .mouse::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    border-radius: 50%;
+    animation: moveDownOnly 1s infinite linear;
+    -webkit-animation: moveDownOnly 1.3s infinite linear;
+  }
+  
+  @keyframes moveDownOnly {
+    0% {
+      top: 7px;
+      opacity: 1;
+    }
+    50%, 100% {
+      top: 30px;
+      opacity: 0;
+    }
+  }
+  
+  

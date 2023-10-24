@@ -5,6 +5,7 @@ import Home from './pages/homeP';
 import About from './pages/about';
 import Contact from './pages/contact';
 import Projects from './pages/project';
+import Footer from './components/footer'
 
 const App: React.FC = () => {
   return (
@@ -14,8 +15,9 @@ const App: React.FC = () => {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
-};
+}
 
 export default App;

@@ -17,7 +17,7 @@ const project = () => {
                 with each project containing its details
               </p>
 
-              <div className='grid lg:grid-cols-3 gap-0 xl:m-28 '>
+              <div className='grid lg:grid-cols-3 gap-0 xl:mr-28 xl:ml-28 mt-8 mb-20'>
                   <div
                     className="xl:w-[349px] h-64 rounded-lg border-[1px] m-2 box hover:-translate-y-2"
                   >

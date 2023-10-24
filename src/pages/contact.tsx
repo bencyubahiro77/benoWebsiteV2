@@ -3,9 +3,9 @@ import { Element } from 'react-scroll';
 
 const contact = () => {
   return (
-    <Element name='contact'>
+    <Element name='contact' className='h-[120vh]'>
         <section id="contact">
-            <div className='w-full pt-16 bg-stone-50 h-[100vh]'>
+            <div className='w-full pt-16 bg-stone-50'>
                 <h4 className='text-center font-bold text-4xl tracking-wider'>CONTACT</h4>
                 <p 
                 className='text-center leading-6 md:text-xl w-full pt-8 pl-2 pr-2 lg:pr-48 lg:pl-48'
