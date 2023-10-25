@@ -6,6 +6,7 @@ import About from './pages/about';
 import Contact from './pages/contact';
 import Projects from './pages/project';
 import Footer from './components/footer'
+import Copyright from './components/copyright';
 
 const App: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
       <Projects />
       <Contact />
       <Footer />
+      <Copyright />
     </div>
   );
 }

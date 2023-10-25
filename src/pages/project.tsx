@@ -11,7 +11,7 @@ const project = () => {
         <div className='w-full pt-16'>
              <h4 className='text-center font-bold text-4xl tracking-wider'>PROJECTS</h4>
              <p 
-               className='text-center leading-6 md:text-xl w-full pt-8 pl-4 pr-4 md:pr-48 md:pl-48'
+               className='text-center leading-6 md:text-xl text-lg w-full pt-8 pl-4 pr-4 md:pr-48 md:pl-48'
              >
                 Here you will find some of the personal and clients projects that I created 
                 with each project containing its details

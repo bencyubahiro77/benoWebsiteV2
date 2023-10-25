@@ -12,6 +12,11 @@
     color:#170e7d;
 }
 
+.secondary-color{
+  color: #111;
+}
+
+
 .hero::before{
     background: url(/src/images/common-bg.svg);
     background-attachment: fixed;

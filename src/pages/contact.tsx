@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
         <div className='w-full pt-16 bg-slate-50 pb-16'>
           <h4 className='text-center font-bold text-4xl tracking-wider'>CONTACT</h4>
           <p
-            className='text-center leading-6 md:text-xl w-full pt-8 pl-2 pr-2 lg:pr-48 lg:pl-48'
+            className='text-center leading-6 md:text-xl text-lg w-full pt-8 pl-2 pr-2 lg:pr-48 lg:pl-48'
           >
             Feel free to Contact me by submitting the form below, and I will get back
             to you as soon as possible.

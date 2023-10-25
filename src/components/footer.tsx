@@ -2,15 +2,14 @@ import React from 'react'
 import {  FaGithub, FaTwitter, FaEnvelope, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const footer = () => {
-    const currentYear = new Date().getFullYear();
     
   return (
-    <div className='h-[50vh] text-white w-full bg-[#000] xl:pl-16 xl:pr-16 pl-8 pr-8 '>
+    <div className='text-white w-full bg-[#000] xl:pl-16 xl:pr-16 pb-16 pl-8 pr-8 '>
 
         <div className=' md:flex justify-between'>
             <div className='md:w-1/2 xl:pt-24 pt-8'>
                 <h4 className='text-xl font-bold tracking-wider'>CYUBAHIRO Benjamin</h4>
-                <p className='mt-4'>
+                <p className='mt-4 leading-6 tracking-wider text-base'>
                 A Frontend focused Web Developer building the Frontend of Websites and Web Applications
                 that leads to the success of the overall product
                 </p>
@@ -25,10 +24,6 @@ const footer = () => {
                     <a href='https://instagram.com/benbeno8?utm_source=qr' target='_blank' rel='noopener noreferrer'><FaInstagram/></a>
                 </ul>
             </div>   
-        </div>
-
-        <div className='text-center text-sm tracking-wider xl:pt-28 pt-16 text-white'>
-            Built by <span className='underline font-bold'>Benjamin CYUBAHIRO</span> {currentYear}
         </div>
     </div>
          
