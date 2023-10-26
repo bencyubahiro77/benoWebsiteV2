@@ -1,32 +1,30 @@
-import React, { useRef, useState, FormEvent } from 'react';
-import axios from 'axios';
+import React, { useRef,FormEvent } from 'react';
+import { useDispatch, useSelector} from 'react-redux';
 import Swal from 'sweetalert2';
+import  { sendContactMessage } from '../redux/contactAction';
 import { Element } from 'react-scroll';
+import { RootState } from '../redux/store'
 
 const Contact: React.FC = () => {
-  const form = useRef<HTMLFormElement | null>(null); 
-  const [isSending, setIsSending] = useState(false);
+  const form = useRef<HTMLFormElement | null>(null);
+  const dispatch = useDispatch();
+
+  const isSending = useSelector((state: RootState) => state.contact.isSending);
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-
-    const formData = new FormData(form.current!); 
-
-    setIsSending(true);
-
+    const formData = new FormData(form.current!);
+  
     try {
-      await axios.post(`${process.env.REACT_APP_BASE_URL}/contact`, formData);
+      await dispatch(sendContactMessage(formData) as any).unwrap();
 
-      setIsSending(false);
-      form.current!.reset(); 
+      form.current!.reset();
       showSuccessMessage();
     } catch (error) {
-      console.error(error);
-      setIsSending(false);
       showErrorMessage();
     }
   };
-
+  
   const showSuccessMessage = () => {
     Swal.fire({
       icon: 'success',
