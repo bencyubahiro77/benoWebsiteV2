@@ -36,7 +36,7 @@ const NavBar : React.FC = () => {
             isMenuOpen ? 'block gradient' : 'hidden'
           } xl:flex items-center secondary-color gap-3 font-bold cursor-pointer list-none transition-all md:gradient ease-in-out duration-300 xl:space-x-4 xl:ml-3 absolute left-0 w-full xl:w-auto xl:static xl:h-auto xl:bg-transparent mt-2 xl:mt-0`}
         >
-          <li className="y-6 xl:my-0 ml-2 mr-4 my-6">
+          <li className="y-6 xl:my-0 ml-4 mr-4 my-6">
             <Link
               to="home" smooth={true} duration={500}
               className="my-6 no-underline secondary-color text-[#170e7d] font-bold xl:my-0 hover:text-[#170e7d]"

@@ -1,8 +1,6 @@
 import React from 'react'
 import { Element,scroller } from 'react-scroll';
-import { FaHtml5, FaCss3Alt, FaFigma, FaReact, FaNodeJs, FaJs} from 'react-icons/fa';
-import { BiLogoTypescript, BiLogoTailwindCss } from 'react-icons/bi';
-
+import pic from '../images/beno.jpg'
 const about = () => {
 
   const scrollToContact = () => {
@@ -18,17 +16,18 @@ const about = () => {
            <div className='w-full pt-16'>
              <h4 className='text-center font-bold text-4xl tracking-wider'>ABOUT ME</h4>
              <p 
-               className='text-center leading-6 md:text-xl text-lg w-full pt-8 pl-4 pr-4 md:pr-48 md:pl-48'
+               className='text-center leading-6 md:text-xl text-lg w-full pt-8 pl-4 pr-4 xl:pr-48 xl:pl-48'
              >
                 Here you will find more information about me, what I do, and my current skills
                 mostly in terms of programming and technology
              </p>
 
              <div className='w-full justify-center flex items-center'>
-                <img src='https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt548d935410bb24b8/60dacd0996e07e0f6e50b0c3/e1bcc3a821bfff285d68586b8ae436ffc75b5f95.jpg?auto=webp&format=pjpg&width=3840&quality=60' alt='' className='rounded-full mt-8 flex h-72 w-72 object-cover' />
+             <img src={pic} alt='' className='rounded-full mt-8 h-72 w-72 object-cover' />
+
              </div>
 
-             <div className='lg:flex pt-8 md:pr-24 md:pl-24 pr-4 pl-4 m-2'>
+             <div className='lg:flex pt-8 xl:pr-24 xl:pl-24 pr-4 pl-4 m-2'>
                 <div className='lg:w-1/2'>
                     <p
                      className='text-lg leading-6 pt-4 font-sans text-[#111] font-normal'
@@ -45,46 +44,65 @@ const about = () => {
                     </p>
 
                     <button
-                      className="bg-[#170e7d] mt-4 mb-4 cursor-pointer tracking-wider hover:bg-blue-500 text-white font-bold py-2 px-4 w-36 rounded focus:outline-none focus:shadow-outline"
+                      className="bg-[#170e7d] mt-4 mb-4 md:mt-12 md:mb-12 cursor-pointer tracking-wider hover:bg-blue-500 text-white font-bold py-2 px-4 w-36 rounded focus:outline-none focus:shadow-outline"
                       onClick={scrollToContact}
                     >
-                      Contact ME
+                      CONTACT ME
                     </button>
 
                 </div>
 
-                <div className='lg:w-1/2 pt-4 md:ml-12 grid grid-cols-4 gap-2'>
-                    <div>
-                       <FaCss3Alt className='h-16 w-16' color='#2965F1' />
-                      
-                    </div>
-                    <div>
-                        <FaHtml5 className='h-16 w-20'  color='#E34C26' />
-                       
-                    </div>
-                    <div>
-                        <FaJs className='h-16 w-16' color='yellow' />
-                      
-                    </div>
-                    <div>
-                       <BiLogoTypescript className='h-16 w-16' color="#007ACC" />
-
-                    </div>
-                    <div>
-                        <FaReact className='h-16 w-16'  color='#61DBFB' />
-                      
-                    </div>
-                    <div>
-                        <FaNodeJs className='h-16 w-16' color="#339933" />
-                       
-                    </div>
-                    <div>
-                        <BiLogoTailwindCss className='h-16 w-16' color="#38B2AC" />
-                    </div>
-                    <div>
-                       <FaFigma className='h-16 w-16' color='#F24E1E' />
-                     
-                    </div>
+                <div className='lg:w-1/2 pt-4 xl:ml-12 h-1/2 grid md:grid-cols-3 grid-cols-2 gap-2'>
+                    <button
+                      className="backSkill mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded "
+                    >
+                      Typescript
+                    </button>
+                    <button
+                      className="backSkill mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                    >
+                      Javascript
+                    </button>
+                    <button
+                      className="backSkill  mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                    >
+                      HTML
+                    </button>
+                    <button
+                      className="backSkill mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                    >
+                      CSS
+                    </button>
+                    <button
+                      className="backSkill mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                    >
+                      React
+                    </button>
+                    <button
+                      className="backSkill mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                    >
+                      Nodejs
+                    </button>
+                    <button
+                      className="backSkill mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                    >
+                      Tailwind
+                    </button>
+                    <button
+                      className="backSkill mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                    >
+                      Figma
+                    </button>
+                    <button
+                      className="backSkill mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                    >
+                      Git
+                    </button>
+                    <button
+                      className="backSkill mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                    >
+                      Github
+                    </button>
                 </div>
              </div>
            </div>
