@@ -59,7 +59,7 @@ const Contact: React.FC = () => {
               ref={form} 
             >
               <div className='w-full'>
-                <label className='block text-gray-700 text-sm font-bold m-2' htmlFor='name'>
+                <label className='block text-gray-700 text-lg font-bold m-2' htmlFor='name'>
                   Name
                 </label>
                 <input
@@ -72,7 +72,7 @@ const Contact: React.FC = () => {
                 />
               </div>
               <div className='w-full'>
-                <label className='block text-gray-700 text-sm font-bold m-2' htmlFor='email'>
+                <label className='block text-gray-700 text-lg font-bold m-2' htmlFor='email'>
                   Phone
                 </label>
                 <input
@@ -85,7 +85,7 @@ const Contact: React.FC = () => {
                 />
               </div>
               <div className='w-full'>
-                <label className='block text-gray-700 text-sm font-bold m-2' htmlFor='email'>
+                <label className='block text-gray-700 text-lg font-bold m-2' htmlFor='email'>
                   Email
                 </label>
                 <input
@@ -98,7 +98,7 @@ const Contact: React.FC = () => {
                 />
               </div>
               <div className='w-full'>
-                <label className='block text-gray-700 text-sm font-bold m-2' htmlFor='message'>
+                <label className='block text-gray-700 text-lg font-bold m-2' htmlFor='message'>
                   Message
                 </label>
                 <textarea

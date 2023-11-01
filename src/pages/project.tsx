@@ -20,7 +20,7 @@ const project = () => {
               <div className='grid lg:grid-cols-3 gap-0 xl:mr-28 xl:ml-28 mt-8 mb-20'>
                 <a href='https://brogrammersmall.netlify.app/' target='_blank' rel='noopener noreferrer'>
                     <div
-                      className="xl:w-[349px] h-72 rounded-lg border-[1px] m-2 box hover:-translate-y-2"
+                      className="h-80 rounded-lg border-[1px] m-2 box hover:-translate-y-2"
                     >
                       <div className='flex justify-between'>
                         <h4 className="mt-8 font-normal mb-2 ml-8"><FontAwesomeIcon icon={faFolder} style={{color: "#170e7d",}} className='h-8 w-8' /></h4>
@@ -29,9 +29,9 @@ const project = () => {
                         </a>
                       </div>
 
-                      <h4 className='pl-8 text-xl h-12 font-bold main-color'>Brogrammers E-commerce</h4>
+                      <h4 className='text-center text-xl h-12 font-bold main-color'>Brogrammers E-commerce</h4>
 
-                      <p className='m-4 pl-4 pr-4'>
+                      <p className='m-4 pl-4 pr-4 text-lg h-[30%]'>
                         This Platform which include sellers and buyers. i Contributed on this project
                         on both Front-end and Back-end
                       </p>
@@ -47,7 +47,7 @@ const project = () => {
 
                   <a href='https://beno-tattoo.onrender.com/' target='_blank' rel='noopener noreferrer'>
                     <div
-                      className="xl:w-[349px] h-72 rounded-lg border-[1px] m-2 box hover:-translate-y-2"
+                      className=" h-80 rounded-lg border-[1px] m-2 box hover:-translate-y-2"
                     >
                       <div className='flex justify-between'>
                         <h4 className="mt-8 font-normal mb-2 ml-8"><FontAwesomeIcon icon={faFolder} style={{color: "#170e7d",}} className='h-8 w-8' /></h4>
@@ -56,11 +56,11 @@ const project = () => {
                         </a>
                       </div>
 
-                      <h4 className='pl-8 h-12 text-xl font-bold main-color'>Beno Tattoo</h4>
+                      <h4 className=' text-center h-12 text-xl font-bold main-color'>Beno Tattoo</h4>
 
-                      <p className='m-4 pl-4 pr-4'>
+                      <p className='m-4 pl-4 pr-4 text-lg h-[30%]'>
                         I build this website for a tatoo shop which presents their services and also include 
-                        booking.
+                        booking
                       </p>
                     
                       <ul className="flex font-bold ml-4 pl-[14px]">
@@ -73,7 +73,7 @@ const project = () => {
 
                   <a href='https://asp.amalitech-dev.net/' target='_blank' rel='noopener noreferrer'>
                     <div
-                      className="xl:w-[349px] h-72 rounded-lg border-[1px] m-2 box hover:-translate-y-2"
+                      className=" h-80 rounded-lg border-[1px] m-2 box hover:-translate-y-2"
                     >
                       <div className='flex justify-between'>
                         <h4 className="mt-8 font-normal mb-2 ml-8"><FontAwesomeIcon icon={faFolder} style={{color: "#170e7d",}} className='h-8 w-8' /></h4>
@@ -82,9 +82,9 @@ const project = () => {
                         </a>
                       </div>
 
-                      <h4 className='pl-8 text-xl h-12 font-bold main-color'>Git-Inspired Assignment submission system</h4>
+                      <h4 className='text-xl h-12 font-bold text-center main-color'>Assignment submission system</h4>
 
-                      <p className='m-4 pl-4 pr-4'>
+                      <p className='m-4 pl-4 pr-4 text-lg h-[30%]'>
                       I worked on this a system which allows IT students to submit assignments as front-end developer
                       </p>
                     

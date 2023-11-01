@@ -27,10 +27,10 @@ const about = () => {
 
              </div>
 
-             <div className='lg:flex pt-8 xl:pr-24 xl:pl-24 pr-4 pl-4 m-2'>
-                <div className='lg:w-1/2'>
+             <div className='lg:flex pt-8 xl:pr-24 justify-between xl:justify-evenly xl:pl-24 pr-4 pl-4 m-2'>
+                <div className='lg:w-2/5'>
                     <p
-                     className='text-lg leading-6 pt-4 font-sans text-[#111] font-normal'
+                     className='leading-7 si pt-4 '
                     >
                         I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section. 
                         <br />
@@ -44,62 +44,62 @@ const about = () => {
                     </p>
 
                     <button
-                      className="bg-[#170e7d] mt-4 mb-4 md:mt-12 md:mb-12 cursor-pointer tracking-wider hover:bg-blue-500 text-white font-bold py-2 px-4 w-36 rounded focus:outline-none focus:shadow-outline"
+                      className="bg-[#170e7d] mt-4 mb-4 md:mt-12 md:mb-12 cursor-pointer tracking-wider hover:bg-blue-500 text-white font-bold size rounded focus:outline-none focus:shadow-outline"
                       onClick={scrollToContact}
                     >
-                      CONTACT ME
+                      CONTACT
                     </button>
 
                 </div>
 
-                <div className='lg:w-1/2 pt-4 xl:ml-12 h-1/2 grid md:grid-cols-3 grid-cols-2 gap-2'>
+                <div className=' pt-4 xl:ml-12 h-1/2 grid md:grid-cols-3 grid-cols-2 gap-2'>
                     <button
-                      className="backSkill mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded "
+                      className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded "
                     >
                       Typescript
                     </button>
                     <button
-                      className="backSkill mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                      className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
                     >
                       Javascript
                     </button>
                     <button
-                      className="backSkill  mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                      className="backSkill  mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
                     >
                       HTML
                     </button>
                     <button
-                      className="backSkill mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                      className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
                     >
                       CSS
                     </button>
                     <button
-                      className="backSkill mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                      className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
                     >
                       React
                     </button>
                     <button
-                      className="backSkill mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                      className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
                     >
                       Nodejs
                     </button>
                     <button
-                      className="backSkill mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                      className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
                     >
                       Tailwind
                     </button>
                     <button
-                      className="backSkill mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                      className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
                     >
                       Figma
                     </button>
                     <button
-                      className="backSkill mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                      className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
                     >
                       Git
                     </button>
                     <button
-                      className="backSkill mb-4 cursor-pointer tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                      className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
                     >
                       Github
                     </button>

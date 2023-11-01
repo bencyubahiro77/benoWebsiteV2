@@ -81,3 +81,12 @@
   background: rgba(153,153,153,.2);
   color:#666;
 }
+
+.size{
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+}
+
+.si{
+  font-size: 1.1rem;
+}
