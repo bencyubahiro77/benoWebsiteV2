@@ -1,7 +1,8 @@
 import React from 'react'
 import { Element,scroller } from 'react-scroll';
 import pic from '../images/beno.jpg'
-const about = () => {
+
+const about : React.FC = () => {
 
   const scrollToContact = () => {
     scroller.scrollTo("contact", {

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFolder, faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons';
 
 
-const project = () => {
+const project: React.FC = () => {
   return (
     <Element name="projects">
       <section id="projects">

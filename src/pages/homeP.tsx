@@ -1,7 +1,7 @@
 import React from 'react'
 import { Element } from 'react-scroll';
 
-const home = () => {
+const home : React.FC = () =>{
   return (
     <Element name="home">
       <section id="home">

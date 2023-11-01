@@ -1,7 +1,7 @@
 import React from 'react'
 import {  FaGithub, FaTwitter, FaEnvelope, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
-const footer = () => {
+const footer : React.FC = () => {
     
   return (
     <div className='text-white w-full bg-[#000] xl:pl-16 xl:pr-16 pb-16 pl-8 pr-8 '>
