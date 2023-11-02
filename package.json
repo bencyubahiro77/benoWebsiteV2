@@ -55,6 +55,7 @@
     ]
   },
   "devDependencies": {
+    "@types/babel__generator": "^7.6.6",
     "@types/react-scroll": "^1.8.9"
   }
 }
