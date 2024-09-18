@@ -65,16 +65,6 @@ const about : React.FC = () => {
                       Javascript
                     </button>
                     <button
-                      className="backSkill  mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
-                    >
-                      HTML
-                    </button>
-                    <button
-                      className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
-                    >
-                      CSS
-                    </button>
-                    <button
                       className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
                     >
                       React
@@ -83,6 +73,26 @@ const about : React.FC = () => {
                       className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
                     >
                       Nodejs
+                    </button>
+                    <button
+                      className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                    >
+                      SAP
+                    </button>
+                    <button
+                      className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                    >
+                      NextJs
+                    </button>
+                    <button
+                      className="backSkill  mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                    >
+                      HTML
+                    </button>
+                    <button
+                      className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+                    >
+                      CSS
                     </button>
                     <button
                       className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
@@ -99,11 +109,7 @@ const about : React.FC = () => {
                     >
                       Git
                     </button>
-                    <button
-                      className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
-                    >
-                      Github
-                    </button>
+
                 </div>
              </div>
            </div>

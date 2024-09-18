@@ -67,7 +67,7 @@ const Contact: React.FC = () => {
                   id='name'
                   type='text'
                   name='name'
-                  placeholder='Name'
+                  placeholder='Enter your name'
                   required
                 />
               </div>
@@ -80,7 +80,7 @@ const Contact: React.FC = () => {
                   id='phone'
                   type='text'
                   name='phone'
-                  placeholder='Phone number'
+                  placeholder='Enter your phone number'
                   required
                 />
               </div>
@@ -93,7 +93,7 @@ const Contact: React.FC = () => {
                   id='email'
                   type='email'
                   name='email'
-                  placeholder='Email'
+                  placeholder='Enter your email'
                   required
                 />
               </div>
@@ -105,7 +105,7 @@ const Contact: React.FC = () => {
                   className='shadow appearance-none bg-[#f0f0f0] h-40 resize-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
                   id='message'
                   name='message'
-                  placeholder='Message'
+                  placeholder='Enter your message'
                   required
                 ></textarea>
               </div>
