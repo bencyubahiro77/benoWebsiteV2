@@ -4,8 +4,8 @@ import { FaGithub, FaTwitter, FaEnvelope, FaLinkedin, FaInstagram } from 'react-
 const footer: React.FC = () => {
     const currentYear = new Date().getFullYear();
     return (
-        <div className='text-white w-full bg-[#000] p-8 flex justify-evenly'>
-            <div className='text-lg tracking-wider  p-2 text-white'>
+        <div className='text-white w-full bg-[#000] p-8 md:flex justify-evenly'>
+            <div className='text-lg tracking-wider  p-2 text-white text-center'>
                Handcrafted by me &copy;{currentYear}
             </div>
             <ul className='flex items-center justify-center cursor-pointer gap-6 text-2xl '>

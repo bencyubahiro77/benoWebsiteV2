@@ -11,7 +11,7 @@ const NavBar: React.FC = () => {
 
   return (
     <div className="flex justify-center items-center mt-16">
-      <nav className="flex items-center justify-between pl-16 pr-16 gradient h-16 p-4 fixed w-[70%] backdrop-blur-xl rounded-lg">
+      <nav className="flex items-center justify-between pl-16 pr-16 gradient h-16 p-4 fixed md:w-[70%] w-[90%] bg-slate-50 rounded-lg">
         <h1 className="text-2xl secondary-color font-extrabold ">
           <Link
             to="home" smooth={true} duration={500}

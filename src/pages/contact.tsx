@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
           </p>
           <div className='flex justify-center items-center'>
             <form
-              className='pt-8 xl:w-7/12 w-11/12 cont'
+              className='pt-8 xl:w-7/12 w-11/12 '
               onSubmit={handleSubmit}
               ref={form} 
             >
@@ -58,7 +58,7 @@ const Contact: React.FC = () => {
                   Name
                 </label>
                 <input
-                  className='shadow appearance-none bg-[#f0f0f0] border rounded w-full h-12 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+                  className=' appearance-none bg-[#f0f0f0] border rounded w-full h-12 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
                   id='name'
                   type='text'
                   name='name'
@@ -71,7 +71,7 @@ const Contact: React.FC = () => {
                   Phone
                 </label>
                 <input
-                  className='shadow appearance-none bg-[#f0f0f0] h-12 border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+                  className='appearance-none bg-[#f0f0f0] h-12 border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
                   id='phone'
                   type='number'
                   name='phone'
@@ -84,7 +84,7 @@ const Contact: React.FC = () => {
                   Email
                 </label>
                 <input
-                  className='shadow appearance-none bg-[#f0f0f0] h-12 border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+                  className='appearance-none bg-[#f0f0f0] h-12 border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
                   id='email'
                   type='email'
                   name='email'
@@ -97,7 +97,7 @@ const Contact: React.FC = () => {
                   Message
                 </label>
                 <textarea
-                  className='shadow appearance-none bg-[#f0f0f0] h-40 resize-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+                  className='appearance-none bg-[#f0f0f0] h-40 resize-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
                   id='message'
                   name='message'
                   placeholder='Enter your message'
