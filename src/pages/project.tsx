@@ -9,7 +9,7 @@ const project: React.FC = () => {
     <Element name="projects">
       <section id="projects">
         <div className='w-full pt-16'>
-             <h4 className='text-center font-bold text-4xl tracking-wider'>PROJECTS</h4>
+             <h4 className='text-center font-bold text-4xl tracking-wider'>My Recent Work</h4>
              <p 
                className='text-center leading-6 md:text-xl text-lg w-full pt-8 pl-4 pr-4 xl:pr-48 xl:pl-48'
              >

@@ -1,6 +1,6 @@
 import React, { useRef,FormEvent } from 'react';
 import { useDispatch, useSelector} from 'react-redux';
-import Swal from 'sweetalert2';
+import { ToastContainer, toast } from 'react-toastify'
 import  { sendContactMessage } from '../redux/contactAction';
 import { Element } from 'react-scroll';
 import { RootState } from '../redux/store'
@@ -16,36 +16,31 @@ const Contact: React.FC = () => {
     const formData = new FormData(form.current!);
   
     try {
+      // Dispatch the action to send the contact message
       await dispatch(sendContactMessage(formData) as any).unwrap();
-
-      form.current!.reset();
-      showSuccessMessage();
+    
+      // Show a success toast message
+      toast.success('Message sent successfully!', {
+        position: "top-center",
+        autoClose: 5000, // Message will auto-close after 5 seconds
+      });
     } catch (error) {
-      showErrorMessage();
+      // Show an error toast message if the operation fails
+      toast.error('Failed to send the message!', {
+        position: "top-center",
+        autoClose: 5000,
+      });
+    } finally {
+      // Clear the form
+      form.current!.reset();
     }
-  };
-  
-  const showSuccessMessage = () => {
-    Swal.fire({
-      icon: 'success',
-      title: 'Message Sent',
-      text: 'Your message has been sent successfully!',
-    });
-  };
-
-  const showErrorMessage = () => {
-    Swal.fire({
-      icon: 'error',
-      title: 'Message Not Sent',
-      text: 'An error occurred while sending the message. Please try again later.',
-    });
   };
 
   return (
     <Element name='contact'>
       <section id="contact">
         <div className='w-full pt-16 bg-slate-50 pb-16'>
-          <h4 className='text-center font-bold text-4xl tracking-wider'>CONTACT</h4>
+          <h4 className='text-center font-bold text-4xl tracking-wider'>Contact</h4>
           <p
             className='text-center leading-6 md:text-xl text-lg w-full pt-8 pl-2 pr-2 lg:pr-48 lg:pl-48'
           >
@@ -78,7 +73,7 @@ const Contact: React.FC = () => {
                 <input
                   className='shadow appearance-none bg-[#f0f0f0] h-12 border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
                   id='phone'
-                  type='text'
+                  type='number'
                   name='phone'
                   placeholder='Enter your phone number'
                   required
@@ -119,6 +114,7 @@ const Contact: React.FC = () => {
               </div>
             </form>
           </div>
+          <ToastContainer />
         </div>
       </section>
     </Element>

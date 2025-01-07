@@ -4,7 +4,6 @@
 
 .gradient {
     /* background: linear-gradient(180deg, #170e7d 0%, #15104e 100%), #363143; */
-    background:#fff;
     box-shadow: 0 10px 100px rgba(0,0,0,.1);
     z-index: 1000;
 }
@@ -89,4 +88,14 @@
 
 .si{
   font-size: 1.1rem;
+}
+
+.social{
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.social:hover{
+  background-color: #170e7d;
 }
