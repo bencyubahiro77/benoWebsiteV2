@@ -22,7 +22,7 @@ const about: React.FC = () => {
           <div className='lg:flex pt-8 xl:pr-24 justify-between xl:justify-evenly xl:pl-24 pr-4 pl-4 m-2'>
             <div className='lg:w-2/5'>
               <p
-                className='leading-7 si pt-4 '
+                className='leading-6 text-xl pt-4 '
               >
                 I'm a Frontend Web Developer building Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.
                 <br />
@@ -35,7 +35,7 @@ const about: React.FC = () => {
               </p>
 
               <button
-                className="bg-[#170e7d] mt-4 mb-4 md:mt-12 md:mb-12 cursor-pointer tracking-wider hover:bg-blue-500 text-white font-bold size rounded focus:outline-none focus:shadow-outline"
+                className='bg-white cursor-pointer tracking-wider border border-black text-black font-bold py-2 px-4 w-36 mt-8 rounded focus:outline-none focus:shadow-outline'
                 onClick={scrollToContact}
               >
                 Contact
@@ -47,12 +47,12 @@ const about: React.FC = () => {
               <button
                 className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded "
               >
-                Typescript
+                TypeScript
               </button>
               <button
                 className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
               >
-                Javascript
+                JavaScript
               </button>
               <button
                 className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
@@ -62,7 +62,7 @@ const about: React.FC = () => {
               <button
                 className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
               >
-                Nodejs
+                NodeJs
               </button>
               <button
                 className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
@@ -73,6 +73,11 @@ const about: React.FC = () => {
                 className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
               >
                 NextJs
+              </button>
+              <button
+                className="backSkill mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"
+              >
+                Angular
               </button>
               <button
                 className="backSkill  mb-4 tracking-wider text-white font-bold h-12 w-36 rounded focus:outline-none focus:shadow-outline"

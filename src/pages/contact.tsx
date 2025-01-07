@@ -58,7 +58,7 @@ const Contact: React.FC = () => {
                   Name
                 </label>
                 <input
-                  className=' appearance-none bg-[#f0f0f0] border rounded w-full h-12 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+                  className=' appearance-none bg-black border rounded w-full h-12 py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline'
                   id='name'
                   type='text'
                   name='name'
@@ -71,7 +71,7 @@ const Contact: React.FC = () => {
                   Phone
                 </label>
                 <input
-                  className='appearance-none bg-[#f0f0f0] h-12 border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+                  className='appearance-none bg-black h-12 border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline'
                   id='phone'
                   type='number'
                   name='phone'
@@ -84,7 +84,7 @@ const Contact: React.FC = () => {
                   Email
                 </label>
                 <input
-                  className='appearance-none bg-[#f0f0f0] h-12 border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+                  className='appearance-none bg-black h-12 border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline'
                   id='email'
                   type='email'
                   name='email'
@@ -97,7 +97,7 @@ const Contact: React.FC = () => {
                   Message
                 </label>
                 <textarea
-                  className='appearance-none bg-[#f0f0f0] h-40 resize-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+                  className='appearance-none bg-black h-40 resize-none border rounded w-full py-2 px-3 text-white  leading-tight focus:outline-none focus:shadow-outline'
                   id='message'
                   name='message'
                   placeholder='Enter your message'
@@ -106,9 +106,9 @@ const Contact: React.FC = () => {
               </div>
               <div className='w-full mt-2 flex lg:justify-end items-center justify-center'>
                 <input
-                  className='bg-[#170e7d] cursor-pointer tracking-wider hover:bg-blue-500 text-white font-bold py-2 px-4 w-36 rounded focus:outline-none focus:shadow-outline'
+                  className='bg-white cursor-pointer tracking-wider border border-black text-black font-bold py-2 px-4 w-36 rounded focus:outline-none focus:shadow-outline'
                   type='submit'
-                  value={isSending ? 'Sending...' : 'SUBMIT'} 
+                  value={isSending ? 'Sending...' : 'Submit'} 
                   disabled={isSending}
                 />
               </div>

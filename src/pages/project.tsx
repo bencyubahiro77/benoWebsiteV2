@@ -23,17 +23,16 @@ const project: React.FC = () => {
                       className="h-80 rounded-lg border-[1px] m-2 box hover:-translate-y-2"
                     >
                       <div className='flex justify-between'>
-                        <h4 className="mt-8 font-normal mb-2 ml-8"><FontAwesomeIcon icon={faFolder} style={{color: "#170e7d",}} className='h-8 w-8' /></h4>
+                        <h4 className="mt-8 font-normal mb-2 ml-8"><FontAwesomeIcon icon={faFolder} style={{color: "black",}} className='h-8 w-8' /></h4>
                         <a href='https://brogrammersmall.netlify.app/' target='_blank' rel='noopener noreferrer'>
-                          <FontAwesomeIcon icon={faArrowUpRightFromSquare} style={{color: "#170e7d",}} className='h-4 w-4 mt-10 mb-2 mr-8' />
+                          <FontAwesomeIcon icon={faArrowUpRightFromSquare} style={{color: "black",}} className='h-4 w-4 mt-10 mb-2 mr-8' />
                         </a>
                       </div>
 
-                      <h4 className='text-center text-xl h-12 font-bold main-color'>Brogrammers E-commerce</h4>
+                      <h4 className='text-center text-xl h-12 font-bold '>Brogrammers E-commerce</h4>
 
-                      <p className='m-4 pl-4 pr-4 text-lg h-[30%]'>
-                        This Platform which include sellers and buyers. i Contributed on this project
-                        on both Front-end and Back-end
+                      <p className='m-4 pl-4 pr-4 leading-6 text-xl h-[30%]'>
+                        This is a multivendor platform that brings together sellers and buyers
                       </p>
                     
                       <ul className="flex font-bold ml-4 pl-[14px]">
@@ -50,15 +49,15 @@ const project: React.FC = () => {
                       className=" h-80 rounded-lg border-[1px] m-2 box hover:-translate-y-2"
                     >
                       <div className='flex justify-between'>
-                        <h4 className="mt-8 font-normal mb-2 ml-8"><FontAwesomeIcon icon={faFolder} style={{color: "#170e7d",}} className='h-8 w-8' /></h4>
+                        <h4 className="mt-8 font-normal mb-2 ml-8"><FontAwesomeIcon icon={faFolder} style={{color: "black",}} className='h-8 w-8' /></h4>
                         <a href='https://beno-tattoo.onrender.com/' target='_blank' rel='noopener noreferrer'>
-                          <FontAwesomeIcon icon={faArrowUpRightFromSquare} style={{color: "#170e7d",}} className='h-4 w-4 mt-10 mb-2 mr-8' />
+                          <FontAwesomeIcon icon={faArrowUpRightFromSquare} style={{color: "black",}} className='h-4 w-4 mt-10 mb-2 mr-8' />
                         </a>
                       </div>
 
-                      <h4 className=' text-center h-12 text-xl font-bold main-color'>Beno Tattoo</h4>
+                      <h4 className=' text-center h-12 text-xl font-bold'>Beno Tattoo</h4>
 
-                      <p className='m-4 pl-4 pr-4 text-lg h-[30%]'>
+                      <p className='m-4 pl-4 pr-4 leading-6 text-xl h-[30%]'>
                         I build this website for a tatoo shop which presents their services and also include 
                         booking
                       </p>
@@ -76,15 +75,15 @@ const project: React.FC = () => {
                       className=" h-80 rounded-lg border-[1px] m-2 box hover:-translate-y-2"
                     >
                       <div className='flex justify-between'>
-                        <h4 className="mt-8 font-normal mb-2 ml-8"><FontAwesomeIcon icon={faFolder} style={{color: "#170e7d",}} className='h-8 w-8' /></h4>
+                        <h4 className="mt-8 font-normal mb-2 ml-8"><FontAwesomeIcon icon={faFolder} style={{color: "black",}} className='h-8 w-8' /></h4>
                         <a href='https://asp.amalitech-dev.net/' target='_blank' rel='noopener noreferrer'>
-                          <FontAwesomeIcon icon={faArrowUpRightFromSquare} style={{color: "#170e7d",}} className='h-4 w-4 mt-10 mb-2 mr-8' />
+                          <FontAwesomeIcon icon={faArrowUpRightFromSquare} style={{color: "black",}} className='h-4 w-4 mt-10 mb-2 mr-8' />
                         </a>
                       </div>
 
-                      <h4 className='text-xl h-12 font-bold text-center main-color'>Assignment submission system</h4>
+                      <h4 className='text-xl h-12 font-bold text-center'>Assignment submission system</h4>
 
-                      <p className='m-4 pl-4 pr-4 text-lg h-[30%]'>
+                      <p className='m-4 pl-4 pr-4 leading-6 text-xl h-[30%]'>
                       I worked on this a system which allows IT students to submit assignments as front-end developer
                       </p>
                     

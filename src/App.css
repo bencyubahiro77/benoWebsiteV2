@@ -6,6 +6,8 @@
     /* background: linear-gradient(180deg, #170e7d 0%, #15104e 100%), #363143; */
     box-shadow: 0 10px 100px rgba(0,0,0,.1);
     z-index: 1000;
+    background-color: white;
+    border: 1px solid black;
 }
 .main-color{
     color:#170e7d;
@@ -77,17 +79,13 @@
   }
   
 .backSkill{
-  background: rgba(153,153,153,.2);
-  color:#666;
+  background: black;
+  color:white;
 }
 
 .size{
   padding: 1rem 3rem;
   font-size: 1.2rem;
-}
-
-.si{
-  font-size: 1.1rem;
 }
 
 .social{
