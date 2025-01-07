@@ -30,16 +30,16 @@ const about: React.FC = () => {
                 I love sharing what I’ve learned in Web Development and encouraging others to join the dev community. Feel free to connect with me via the social media links in the footer – let’s chat about coding!
                 <br />
                 <br />
-                I'm open to Job opportunities where I can contribute, learn and grow. If you have
-                a good opportunity that matches my skills and experience then don't hesitate to contact me.
+                {/* I'm open to Job opportunities where I can contribute, learn and grow. If you have
+                a good opportunity that matches my skills and experience then don't hesitate to contact me. */}
               </p>
 
-              <button
+              {/* <button
                 className='bg-white cursor-pointer tracking-wider border border-black text-black font-bold py-2 px-4 w-36 mt-8 rounded focus:outline-none focus:shadow-outline'
                 onClick={scrollToContact}
               >
                 Contact
-              </button>
+              </button> */}
 
             </div>
 
